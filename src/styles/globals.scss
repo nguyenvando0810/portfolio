@@ -1,3 +1,6 @@
+@use './_header';
+@use './_sidebar';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +20,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-layout {
+  width: calc(100% - 350px);
 }
