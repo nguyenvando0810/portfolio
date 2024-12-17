@@ -19,7 +19,7 @@ export const SideBar = () => (
       </header>
     </section>
 
-    <section className="mt-14">
+    <section className="py-14 my-14 border-y	border-slate-300">
       <h2 className="header-title mb-4">About</h2>
       <p>
         Hi, I’m a Front-End developer with around 5 years’ experience in
@@ -29,7 +29,7 @@ export const SideBar = () => (
       </p>
     </section>
 
-    <section id="footer" className="mt-20">
+    <section id="footer">
       <ContactIcons />
       <p className="copyright text-xs">
         &copy;Do Nguyen Van

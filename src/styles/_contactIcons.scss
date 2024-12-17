@@ -1,0 +1,15 @@
+.icons {
+  color: #aaa;
+
+  li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+  }
+
+  a {
+    transition: color .2s ease, border-bottom-color .2s ease;
+  }
+  a:hover {
+    color: #2e59ba !important;
+  }
+}

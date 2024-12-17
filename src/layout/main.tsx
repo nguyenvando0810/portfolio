@@ -11,7 +11,7 @@ export const Layout = ({ children }: Props) => {
       <Header />
       <div className="flex px-14 py-20">
         <SideBar />
-        <div className="main-layout">{children}</div>
+        <div className="main-layout ml-14 p-10">{children}</div>
       </div>
     </div>
   );

@@ -35,7 +35,7 @@ export const routes = [
 
 export const contactIcons = [
     {
-      link: 'https://github.com/tieutuyet10',
+      link: 'https://github.com/nguyenvando0810',
       label: 'Github',
       icon: faGithub,
     },

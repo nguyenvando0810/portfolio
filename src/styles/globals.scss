@@ -1,12 +1,13 @@
 @use './_header';
 @use './_sidebar';
+@use './contactIcons';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f4f4f4;
   --foreground: #171717;
 }
 
@@ -25,4 +26,6 @@ body {
 
 .main-layout {
   width: calc(100% - 350px);
+  background-color: #FFFFFF;
+  border: 1px solid #a0a0a04d;
 }
