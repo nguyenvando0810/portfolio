@@ -3,7 +3,6 @@ import React from "react";
 import avatar from '../../assets/images/avatar.jpeg'
 import Image from "next/image";
 import { ContactIcons } from "../ContactIcons";
-// import ContactIcons from '../Contact/ContactIcons';
 
 export const SideBar = () => (
   <section id="sidebar">
@@ -19,7 +18,7 @@ export const SideBar = () => (
       </header>
     </section>
 
-    <section className="py-14 my-14 border-y	border-slate-300">
+    <section className="py-10 my-14 border-y	border-slate-300">
       <h2 className="header-title mb-4">About</h2>
       <p>
         Hi, I’m a Front-End developer with around 5 years’ experience in
