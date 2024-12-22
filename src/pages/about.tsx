@@ -3,28 +3,12 @@ import { HeaderMain } from "@/components/HeaderMain";
 
 const aboutMe = [
   {
-    title: "Info",
-    contents: [
-      { label: "Birthday", value: "08/10/1996" },
-      { label: "Address", value: "Dinh Cong, Yen Dinh, Thanh Hoa." },
-      { label: "Phone", value: "0962 438 147" },
-    ],
-  },
-  {
-    title: "Education",
-    contents: [
-      { value: "[Hanoi University Of Industry, Vietnam]" },
-      { value: "[From 2014] - [To 2018]" },
-      { label: "Major", value: "Computer Science." },
-    ],
-  },
-  {
-    title: "Skills",
+    title: "My Skills",
     contents: [
       { label: "Languages", value: "Vietnamese, English." },
       {
         label: "Programming",
-        value: "HTML/CSS, JavaScript, ReactJS (Js/Ts), NextJs, Vuejs",
+        value: "Javascript/ Typescript, HTML/ CSS, ReactJs, Next.js, Redux, Tailwind CSS, UI Libraries (React-Bootstrap, MUI, Chakra UI), Redux Toolkit, JEST, Unit Testing.",
       },
       { label: "Management", value: "Team Management, Agile/Scrum." },
     ],
@@ -33,13 +17,26 @@ const aboutMe = [
 
 const About = () => (
   <article id="about">
-    <HeaderMain title="About Me" />
+    <HeaderMain title="About Me" desc="Who Am I?" />
 
-    <h3 className="font-bold uppercase tracking-widest">Who Am I ?</h3>
-    <p></p>
+    <h3 className="font-bold uppercase tracking-widest">Intro</h3>
+    <p className="text-[#646464] mb-2">
+      `Hi! My name is Do Nguyen Van. I am a passionate developer having
+      experience in Frontend & Mobile App development complemented by backend
+      expertise and I&apos;m currently working at <b>NAL</b> as a <b>Software
+      Developer Engineer</b>. I am much interested in developing new things which
+      excite me a lot. :)
+    </p>
+    <p className="text-[#646464]">
+      I love exploring new technologies and being a practitioner, I like to stay
+      on top of latest trends. I try to leave every line of code I write more
+      readable, accessible, and modular. My problem-solving mindset and active
+      GitHub profile showcase my commitment to innovative and collaborative
+      coding.
+    </p>
 
     {aboutMe.map((el, index) => (
-      <div className="mb-6" key={index}>
+      <div className="mb-6 mt-6" key={index}>
         <h3 className="font-bold uppercase tracking-widest">{el.title}</h3>
         {el.contents.map((content, i) => (
           <p key={i} className="text-[#646464]">
